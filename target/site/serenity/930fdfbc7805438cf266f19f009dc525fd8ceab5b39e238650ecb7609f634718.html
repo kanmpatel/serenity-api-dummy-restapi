@@ -58,7 +58,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-06-2022 19:00</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-06-2022 19:17</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -91,9 +91,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-3x' title='FAILURE'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
-                                    <span class="failing-color">
+                                    <span class="success-color">
                                     Test004
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -140,13 +140,13 @@
                         <div class="step-description">
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
-                            <span class="top-level-step">Delete employee by id: 0</span>
+                            <span class="top-level-step">Delete employee by id: 9295</span>
                             </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.69s</span></td>
+                    <td width="100"><span class="top-level-step">0.75s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -160,7 +160,7 @@
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-group-step">DELETE https://dummy.restapiexample.com/api/v1/delete/0</span>
+                            <span class="nested-group-step">DELETE https://dummy.restapiexample.com/api/v1/delete/9295</span>
 
                                 <span class="rest-query">
                 <span>
@@ -179,11 +179,11 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                DELETE https://dummy.restapiexample.com/api/v1/delete/0
+                                DELETE https://dummy.restapiexample.com/api/v1/delete/9295
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 400</p>
+                                    <p>Status code: 200</p>
                                     <p>Content Type: null</p>
                                     <h5>Request Headers</h5>
                                     <pre>Accept=*/*</pre>
@@ -192,10 +192,10 @@
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Content-Type: application/json<br>Date: Sun, 05 Jun 2022 18:00:07 GMT<br>Display: staticcontent_sol<br>Expires: Sat, 04 Jun 2022 18:00:07 GMT<br>Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==<br>Response: 400<br>Server: nginx<br>Vary: Accept-Encoding<br>Vary: Accept-Encoding,Origin<br>X-Endurance-Cache-Level: 2<br>X-Ezoic-Cdn: Miss<br>X-Middleton-Display: staticcontent_sol<br>X-Middleton-Response: 400<br>X-Nginx-Cache: WordPress<br>X-Origin-Cache-Control: no-cache, private<br>X-Ratelimit-Limit: 60<br>X-Ratelimit-Remaining: 58<br>X-Sol: pub_site<br>Content-Length: 81</pre>
+                                    <pre>Cache-Control: no-cache, private<br>Content-Type: application/json<br>Date: Sun, 05 Jun 2022 18:17:56 GMT<br>Display: staticcontent_sol<br>Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==<br>Response: 200<br>Server: nginx<br>Vary: Accept-Encoding<br>Vary: Accept-Encoding,Origin<br>X-Endurance-Cache-Level: 2<br>X-Ezoic-Cdn: Miss<br>X-Middleton-Display: staticcontent_sol<br>X-Middleton-Response: 200<br>X-Nginx-Cache: WordPress<br>X-Origin-Cache-Control: no-cache, private<br>X-Ratelimit-Limit: 60<br>X-Ratelimit-Remaining: 58<br>X-Sol: pub_site<br>Content-Length: 84</pre>
                                 <h5>Response Body</h5>
                                     <pre>
-                                        {<br>    &quot;status&quot;: &quot;error&quot;,<br>    &quot;message&quot;: &quot;Not found record&quot;,<br>    &quot;code&quot;: 400,<br>    &quot;errors&quot;: &quot;id is empty&quot;<br>}
+                                        {<br>    &quot;status&quot;: &quot;success&quot;,<br>    &quot;data&quot;: &quot;9295&quot;,<br>    &quot;message&quot;: &quot;Successfully! Record has been deleted&quot;<br>}
                                     </pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
@@ -219,69 +219,10 @@
                     </table>
                     </td>
                     <tr>
-                <tr class="test-FAILURE">
-                    <td width="40"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i>
-                    </td>
-                    <td width="%" colspan="1">
-                    <span class="top-level-step">An error occurred outside of step execution.</span>
-                </td>
-                    <td width="100"><span class="top-level-step">FAILURE</span></td>
-                    <td width="100"><span class="top-level-step">0.7s</span></td>
-                </tr>
-                <tr class="test-FAILURE">
-                    <td width="40">&nbsp</td>
-                    <td width="%" colspan="3">
-                        <span class="error-message"
-                              title="1 expectation failed. Expected status code (200) but was (400). ">
-                        1 expectation failed. Expected status code (200) but was (400). 
-                            </span>
-                <div><!-- Stack trace -->
-                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
-                            data-target="#stacktraceModal-overall">
-                        View stack trace
-                    </button>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
-                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="stacktraceModalLabel">
-                                java.lang.AssertionError
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                    <h5>1 expectation failed.<br>Expected status code <200> but was <400>.<br></h5>
-                                io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy
-                                    :636) <br>
-                                io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy
-                                    :122) <br>
-                                io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy
-                                    :130) <br>
-                                io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java
-                                    :117) <br>
-                                com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest.test004(EmployeeCurdTest.java
-                                    :50) <br>
-                            </div>
-
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </td>
-                </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.7s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.75s</em></span></td>
                 </tr>
 
             </table>

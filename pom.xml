@@ -92,7 +92,7 @@
         <version>2.18</version>
         <configuration>
           <includes>
-            <include>**/com.restapiexample.dummy/**/*.java</include>
+            <include>**/dummy/**/*.java</include>
           </includes>
           <forkCount>4</forkCount>
           <reuseForks>true</reuseForks>
