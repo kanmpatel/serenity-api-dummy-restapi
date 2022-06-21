@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.152 sec <<< FAILURE! - in com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest
-test002(com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest)  Time elapsed: 0.968 sec  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.129 sec <<< FAILURE! - in com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest
+test003(com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest)  Time elapsed: 0.83 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <200> but was <429>.
 
@@ -13,8 +13,6 @@ Expected status code <200> but was <429>.
 	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
 	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
 	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
@@ -30,5 +28,5 @@ Expected status code <200> but was <429>.
 	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
-	at com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest.test002(EmployeeCurdTest.java:38)
+	at com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest.test003(EmployeeCurdTest.java:44)
 

@@ -38,13 +38,13 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.75],
+                ['Passing', 0.625],
                 
                 ['Pending', 0],
                 
                 ['Ignored/Skipped', 0],
                 
-                ['Failing', 0.25],
+                ['Failing', 0.375],
                 
                 ['Errors',  0],
                 ['Compromised',  0]
@@ -77,24 +77,24 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '3 / 4 tests passed' },
-                {label: '0 / 4 tests pending'},
-                {label: '0 / 4 tests not executed'},
-                {label: '1 / 4 tests failed'},
-                {label: '0 / 4 errors'},
-                {label: '0 / 4 compromised tests'}
+                {label: '5 / 8 tests passed' },
+                {label: '0 / 8 tests pending'},
+                {label: '0 / 8 tests not executed'},
+                {label: '3 / 8 tests failed'},
+                {label: '0 / 8 errors'},
+                {label: '0 / 8 compromised tests'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.75],
+                ['Passing', 0.5],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0.25],
+                ['Failing', 0.5],
                 
                 ['Errors', 0],
                 ['Compromised', 0],
@@ -128,11 +128,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '3 / 4 tests passed (0.75% of all test steps)' },
-                {label: '0 / 4 tests pending'},
-                {label: '0 / 4 tests not executed'},
-                {label: '1 / 4 tests failed (0.25% of all test steps)'},
-                {label: '0 / 4 errors (0% of all test steps)'}
+                {label: '5 / 8 tests passed (0.5% of all test steps)' },
+                {label: '0 / 8 tests pending'},
+                {label: '0 / 8 tests not executed'},
+                {label: '3 / 8 tests failed (0.5% of all test steps)'},
+                {label: '0 / 8 errors (0% of all test steps)'}
             ]
         });
 
@@ -195,7 +195,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-06-2022 19:17</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-06-2022 06:49</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -209,22 +209,22 @@
     <tr>
         <td width="375px" valign="top">
             <div class="test-count-summary">
-                <span class="test-count-title">4
+                <span class="test-count-title">8
                     test scenarios </span>
                 <div>
 
                     <span class="test-count"> |
-                        3
+                        5
                             <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html">passed</a>
                         
                     </span>
                     <span class="test-count"> |
-                        1
+                        3
                             <a href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html">unsuccessful</a>
                         
                     </span>(
                     <span class="test-count">
-                        1
+                        3
                             <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html">failed</a>
                         ,
                     </span>
@@ -282,9 +282,9 @@ errors
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>4</td>
-            <td>3 (75%)</td>
-            <td>1 (25%)</td>
+            <td>8</td>
+            <td>5 (62%)</td>
+            <td>3 (38%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -298,15 +298,15 @@ errors
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>4</td>
-            <td>3 (75%)</td>
-            <td>1 (25%)</td>
+            <td>8</td>
+            <td>5 (62%)</td>
+            <td>3 (38%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">6 seconds</td>
+                <td colspan="5">10 seconds</td>
         </tr>
         </body>
     </table>
@@ -320,6 +320,58 @@ errors
         <td class="tag-count-header">Test count</td>
     </tr>
 </table>
+        <table class="test-summary-table">
+            <tr>
+                <td colspan="3">
+                    <div class="tagTypeTitle">Features</div>
+                </td>
+            </tr>
+                <tr>
+                    <td class="bluetext" class="tag-title">
+                        <span class="FAILURE-text ellipsis">
+                                <a href="ab860ed12f369f8d929c4f7650579d88021cc0b6f83d3206e41fb68bd6436a47.html" title="End To End Testing Of Employee Data">End To End Testing Of Employee Data</a>
+                        </span>
+                    </td>
+                    <td width="220px" class="table-figure">
+
+
+                        <table>
+                            <tr>
+                                <td class="related-tag-percentage"><span title="2 out of 4 tests (10 steps) passing">50%</span></td>
+                                <td width="150px">
+                                    <a href="ab860ed12f369f8d929c4f7650579d88021cc0b6f83d3206e41fb68bd6436a47.html">
+                                        <div class="pendingbar"
+                                             title="0 out of 4 tests (0 steps) pending"
+                                             style="width: 150px;">
+                                            <div class="ignoredbar"
+                                                 style="width: 150px;"
+                                                 title="0 out of 4 tests (0 steps) skipped or ignored">
+                                                <div class="compromisedbar"
+                                                     style="width: 150px;"
+                                                     title="0 out of 4 tests (0 steps) compromised">
+                                                    <div class="errorbar"
+                                                         style="width: 150px;"
+                                                         title="0 out of 4 tests (0 steps) broken">
+                                                        <div class="failingbar"
+                                                             style="width: 150px;"
+                                                             title="2 out of 4 tests (14 steps) failing">
+                                                            <div class="passingbar"
+                                                                 style="width: 75px;"
+                                                                 title="2 out of 4 tests (10 steps) passing">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td class="related-tag-count"><span class="result-test-count" title="4 tests">4</span></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+        </table>
         <table class="test-summary-table">
             <tr>
                 <td colspan="3">
@@ -381,7 +433,7 @@ errors
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 2) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 4) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -413,9 +465,9 @@ errors
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>4</td>
-            <td>3 (75%)</td>
-            <td>1 (25%)</td>
+            <td>8</td>
+            <td>5 (62%)</td>
+            <td>3 (38%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -429,15 +481,15 @@ errors
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>4</td>
-            <td>3 (75%)</td>
-            <td>1 (25%)</td>
+            <td>8</td>
+            <td>5 (62%)</td>
+            <td>3 (38%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">6 seconds</td>
+                <td colspan="5">10 seconds</td>
         </tr>
         </body>
     </table>
@@ -451,6 +503,58 @@ errors
         <td class="tag-count-header">Test count</td>
     </tr>
 </table>
+        <table class="test-summary-table">
+            <tr>
+                <td colspan="3">
+                    <div class="tagTypeTitle">Features</div>
+                </td>
+            </tr>
+                <tr>
+                    <td class="bluetext" class="tag-title">
+                        <span class="FAILURE-text ellipsis">
+                                <a href="ab860ed12f369f8d929c4f7650579d88021cc0b6f83d3206e41fb68bd6436a47.html" title="End To End Testing Of Employee Data">End To End Testing Of Employee Data</a>
+                        </span>
+                    </td>
+                    <td width="220px" class="table-figure">
+
+
+                        <table>
+                            <tr>
+                                <td class="related-tag-percentage"><span title="2 out of 4 tests (10 steps) passing">41.7%</span></td>
+                                <td width="150px">
+                                    <a href="ab860ed12f369f8d929c4f7650579d88021cc0b6f83d3206e41fb68bd6436a47.html">
+                                        <div class="pendingbar"
+                                             title="0 out of 4 tests (0 steps) pending"
+                                             style="width: 150px;">
+                                            <div class="ignoredbar"
+                                                 style="width: 150px;"
+                                                 title="0 out of 4 tests (0 steps) skipped or ignored">
+                                                <div class="compromisedbar"
+                                                     style="width: 150px;"
+                                                     title="0 out of 4 tests (0 steps) compromised">
+                                                    <div class="errorbar"
+                                                         style="width: 150px;"
+                                                         title="0 out of 4 tests (0 steps) broken">
+                                                        <div class="failingbar"
+                                                             style="width: 150px;"
+                                                             title="2 out of 4 tests (14 steps) failing">
+                                                            <div class="passingbar"
+                                                                 style="width: 62px;"
+                                                                 title="2 out of 4 tests (10 steps) passing">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td class="related-tag-count"><span class="result-test-count" title="4 tests">4</span></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+        </table>
         <table class="test-summary-table">
             <tr>
                 <td colspan="3">
@@ -551,32 +655,9 @@ errors
                                 <td class="SUCCESS-text">2</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2022-06-05 19:17:50">19:17:50</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-21 06:49:10">06:49:10</td>
 
-                                <td class="SUCCESS-text">3.54</td>
-                            </tr>
-
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
-                                    
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
-                                    <div class="ellipsis">
-
-                                        <a href="33b866217a6fd5959e0e8e190a14a357779eca312f22708ceebbcfff8194b993.html" class="ellipsis"
-                                           title="Test002 1 expectation failed. Expected status...">
-                                            Test002
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="FAILURE-text">2</td>
-
-
-                                <td class="FAILURE-text" data-sort="2022-06-05 19:17:54">19:17:54</td>
-
-                                <td class="FAILURE-text">0.97</td>
+                                <td class="SUCCESS-text">0.75</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -586,9 +667,9 @@ errors
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="9a1c4497c72ff0cf583d9454160627ce453190a7f0397c48cbbd003d2851673a.html" class="ellipsis"
-                                           title="Test003 ">
-                                            Test003
+                                        <a href="33b866217a6fd5959e0e8e190a14a357779eca312f22708ceebbcfff8194b993.html" class="ellipsis"
+                                           title="Test002 ">
+                                            Test002
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
@@ -597,9 +678,32 @@ errors
                                 <td class="SUCCESS-text">2</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2022-06-05 19:17:55">19:17:55</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-21 06:49:10">06:49:10</td>
 
-                                <td class="SUCCESS-text">0.68</td>
+                                <td class="SUCCESS-text">0.8</td>
+                            </tr>
+
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                    
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
+                                    <div class="ellipsis">
+
+                                        <a href="9a1c4497c72ff0cf583d9454160627ce453190a7f0397c48cbbd003d2851673a.html" class="ellipsis"
+                                           title="Test003 1 expectation failed. Expected status...">
+                                            Test003
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="FAILURE-text">2</td>
+
+
+                                <td class="FAILURE-text" data-sort="2022-06-21 06:49:11">06:49:11</td>
+
+                                <td class="FAILURE-text">0.85</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -620,9 +724,101 @@ errors
                                 <td class="SUCCESS-text">2</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2022-06-05 19:17:55">19:17:55</td>
+                                <td class="SUCCESS-text" data-sort="2022-06-21 06:49:12">06:49:12</td>
 
-                                <td class="SUCCESS-text">0.75</td>
+                                <td class="SUCCESS-text">0.69</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="81c11503e4873c291a97e67cdfa959edeb193c1961f89b0a2241f9e579ea7ae4.html" class="ellipsis"
+                                           title="Create a new Employee data & verify if the Employee is added ">
+                                            Create a new Employee data &amp; verify if the Employee is added
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">6</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2022-06-21 06:49:01">06:49:01</td>
+
+                                <td class="SUCCESS-text">4.12</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="c8a994b00ab16084c94e3c1ff1797457173e4b31ff5e74786d1159df4f3e102a.html" class="ellipsis"
+                                           title="Verify the Employee data are successfully created ">
+                                            Verify the Employee data are successfully created
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">4</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2022-06-21 06:49:06">06:49:06</td>
+
+                                <td class="SUCCESS-text">0.8</td>
+                            </tr>
+
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                    
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
+                                    <div class="ellipsis">
+
+                                        <a href="188091b4072f3afe483233ba5fbbde3ae854893eb6e5cf061a7165659a5b5fd2.html" class="ellipsis"
+                                           title="Update the Employee data for given ID Assertion error: 1 expectation failed...">
+                                            Update the Employee data for given ID
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="FAILURE-text">6</td>
+
+
+                                <td class="FAILURE-text" data-sort="2022-06-21 06:49:07">06:49:07</td>
+
+                                <td class="FAILURE-text">0.92</td>
+                            </tr>
+
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                    
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
+                                    <div class="ellipsis">
+
+                                        <a href="e00ad4079c6bf15923f02f791430bd266fcbbfbcaa0b26af35c77fce6b627929.html" class="ellipsis"
+                                           title="Delete the Prodct data for given ID & verify the record are deleted successfully Assertion error: 1 expectation failed...">
+                                            Delete the Prodct data for given ID &amp; verify the record are deleted successfully
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="FAILURE-text">8</td>
+
+
+                                <td class="FAILURE-text" data-sort="2022-06-21 06:49:08">06:49:08</td>
+
+                                <td class="FAILURE-text">1.54</td>
                             </tr>
                         </tbody>
                     </table>

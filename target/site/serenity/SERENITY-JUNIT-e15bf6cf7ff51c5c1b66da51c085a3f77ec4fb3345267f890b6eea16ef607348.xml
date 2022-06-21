@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest" skipped="0" tests="4" time="5.94" timestamp="2022-06-05T19:17:50.684+01:00[Europe/London]"><testcase classname="com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest" name="Test001"/><testcase classname="com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest" name="Test002"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest" skipped="0" tests="4" time="3.08" timestamp="2022-06-21T06:49:10.161+01:00[Europe/London]"><testcase classname="com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest" name="Test001"/><testcase classname="com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest" name="Test002"/><testcase classname="com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest" name="Test003"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;429&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;429&gt;.
@@ -7,5 +7,5 @@ io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(Res
 io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
 io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
 io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
-com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest.test002(EmployeeCurdTest.java:38)&#13;
-</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest" name="Test003"/><testcase classname="com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest" name="Test004"/></testsuite>
+com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest.test003(EmployeeCurdTest.java:44)&#13;
+</system-err></testcase><testcase classname="com.restapiexample.dummy.dummyapiemployeeinfo.EmployeeCurdTest" name="Test004"/></testsuite>

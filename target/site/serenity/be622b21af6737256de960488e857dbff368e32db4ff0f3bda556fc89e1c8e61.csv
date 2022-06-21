@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"End to End testing of Employee data","Create a new Employee data & verify if the Employee is added","SUCCESS","2022-06-21T06:49:01.673+01:00[Europe/London]","0.0","4.12"
+"End to End testing of Employee data","Verify the Employee data are successfully created","SUCCESS","2022-06-21T06:49:06.713+01:00[Europe/London]","0.0","0.8"

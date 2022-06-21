@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="End to End testing of Employee data" skipped="0" tests="4" time="7.39" timestamp="2022-06-21T06:49:01.673+01:00[Europe/London]"><testcase name="Create a new Employee data &amp; verify if the Employee is added"/><testcase name="Verify the Employee data are successfully created"/><testcase name="Update the Employee data for given ID"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.cucumber.steps.MyStepdefs.iUpdateTheProfile_image(MyStepdefs.java:60)&#13;
+✽.And I update the profile_image(employee.feature:15)&#13;
+</system-err></testcase><testcase name="Delete the Prodct data for given ID &amp; verify the record are deleted successfully"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;404&gt; but was &lt;200&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.cucumber.steps.MyStepdefs.iVerifyTheStatusCodeForVerifingTheDeleteRecord(MyStepdefs.java:88)&#13;
+✽.And I verify the status code 404 for verifing the delete record(employee.feature:23)&#13;
+</system-err></testcase></testsuite>

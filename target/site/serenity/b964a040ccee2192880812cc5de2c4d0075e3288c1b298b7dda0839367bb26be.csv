@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Employee curd test","Test002","FAILURE","2022-06-05T19:17:54.241+01:00[Europe/London]","0.0","0.97"
+"Employee curd test","Test003","FAILURE","2022-06-21T06:49:11.710+01:00[Europe/London]","0.0","0.85"
+"End to End testing of Employee data","Update the Employee data for given ID","FAILURE","2022-06-21T06:49:07.542+01:00[Europe/London]","0.0","0.92"
+"End to End testing of Employee data","Delete the Prodct data for given ID & verify the record are deleted successfully","FAILURE","2022-06-21T06:49:08.544+01:00[Europe/London]","0.0","1.54"
